@@ -1,0 +1,64 @@
+points:
+  # How many points a player gets for killing another player
+  per_kill: 200
+  
+  # How many points are required to level up
+  per_level: 5000
+
+# Maximum level a player can reach
+max-level: 2000
+
+# Minimum level a player starts with
+min-level: 1
+
+# Interval (in seconds) to save player data into the database
+flush-interval-seconds: 5
+
+# Format for displaying the level
+# Use {level} as a placeholder for the player’s current level
+level-format: "{level} ★"
+
+# Message shown when a player levels up
+# {display} = formatted level with color
+# %player% = player’s name
+# %level% = raw level number
+level-up-message: "&aYou are level up! {display}!"
+
+# Type of message when leveling up:
+# "private"   -> send only to the player
+# "broadcast" -> send to everyone on the server
+level-up-message-type: "private"
+
+
+# You can set a color for each level range.
+# Format: "min-max": "#HEXCOLOR"
+# Example: "1-5": "#AAAAAA"
+# If only one number is given (e.g., "10"), it applies only to that exact level.
+levels:
+  "1-5": "#AAAAAA"
+  "6-10": "#CCCCCC"
+  "11-20": "#00FF00"
+  "21-30": "#7CFC00"
+  "31-40": "#00FFAA"
+  "41-50": "#00AAFF"
+  "51-60": "#0e67ed"
+  "61-70": "#0000FF"
+  "71-80": "#5500FF"
+  "81-90": "#AA00FF"
+  "91-100": "#FF00FF"
+  "101-150": "#FF55AA"
+  "151-200": "#FF5555"
+  "201-250": "#FFAA00"
+  "251-300": "#FFD700"
+  "301-400": "#FFFF00"
+  "401-500": "#AAFF00"
+  "501-600": "#55FF00"
+  "601-700": "#00FF55"
+  "701-800": "#00FFAA"
+  "801-900": "#00FFFF"
+  "901-1000": "#00AAFF"
+  "1001-1200": "#0055FF"
+  "1201-1400": "#5500FF"
+  "1401-1600": "#AA00FF"
+  "1601-1800": "#FF00FF"
+  "1801-2000": "#FF5555"

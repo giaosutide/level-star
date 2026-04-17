@@ -1,0 +1,14 @@
+name: LevelStar
+version: '1.0-SNAPSHOT'
+main: org.example.h4dro.levelStar.LevelStar
+api-version: '1.21'
+depend:
+  - LuckPerms
+  - TAB
+softdepend:
+  - PlaceholderAPI
+commands:
+  levelstar:
+    description: LevelStar main command
+    usage: /levelstar reload
+    permission: levelstar.reload
